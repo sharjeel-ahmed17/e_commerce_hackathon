@@ -2,3 +2,27 @@ pages:
 home > product > product details
 about contact signup login whishlist cart checkout account
 404 error
+
+
+color varaible: 
+
+    primary1: "#FFFFFF",
+    primary2: "#363738",
+    text1: "#FFFFFF",
+    text2: "#D37643",
+    buttonCard: "#D37643",
+    text2Black: "#000000",
+    second2: "#F5F5F5",
+    second1: "#FEFAF1",
+    secondRed: "#DB4444",
+    bg1: "#FFFFFF",
+    button1: "#47B486",
+    button2: "#DB4444",
+    hoverButton1: "#E2B93B",
+    hoverButton2: "#EB5757",
+    logoColor: "rgba(80,66,66,1)",
+
+
+
+
+

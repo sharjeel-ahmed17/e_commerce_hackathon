@@ -10,12 +10,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        red: "#DB4444",
-        green: "#00FF66",
-        white: "#fff",
-        black: "#000",
+        primary1: "#FFFFFF",
+    primary2: "#363738",
+    text1: "#FFFFFF",
+    text2: "#D37643",
+    buttonCard: "#D37643",
+    text2Black: "#000000",
+    second2: "#F5F5F5",
+    second1: "#FEFAF1",
+    secondRed: "#DB4444",
+    bg1: "#FFFFFF",
+    button1: "#47B486",
+    button2: "#DB4444",
+    hoverButton1: "#E2B93B",
+    hoverButton2: "#EB5757",
+    logoColor: "rgba(80,66,66,1)",
+        
+      
 
-        background: "hsl(var(--background))",
+
+        // background: "hsl(var(--background))",
+        background: "#ffffff",
         foreground: "hsl(var(--foreground))",
         card: {
           DEFAULT: "hsl(var(--card))",
@@ -66,6 +81,15 @@ const config: Config = {
 
         poppins: ["var(--font-poppins)", "popins"],
         inter: ["var(--font-inter)", "inter"],
+      },
+      spacing : {
+        s1: '16px',
+        s2 : '36px',
+        s3: '14px'
+      },
+      boxShadow: {
+        'shadow1': '0px 2px 10px 2px rgba(0,0,0,0.2)',
+        'shadow2': '0px 1px 13px 0px rgba(0,0,0,0.05)',
       },
     },
   },
