@@ -7,9 +7,20 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
+  weight: "100 900",
+});
+const inter = localFont({
+  src: "./fonts/Inter_24pt-Regular.ttf",
+  variable: "--font-inter",
+  weight: "100 900",
+});
+const poppins = localFont({
+  src: "./fonts/Poppins-Regular.ttf",
+  variable: "--font-poppins",
   weight: "100 900",
 });
 
@@ -26,9 +37,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${poppins.variable}  antialiased`}
       >
+        <div className="max-w-[1440px] mx-auto bg-red-600">
+
+<main className="max-w-[1170px] mx-auto  bg-black">
+
         {children}
+        </main>
+        </div>
       </body>
     </html>
   );
