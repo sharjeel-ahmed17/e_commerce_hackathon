@@ -39,9 +39,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${poppins.variable}  antialiased`}
       >
-        <div className="max-w-[1440px] mx-auto bg-red-600">
+        <div className="max-w-[1440px] mx-auto bg-emerald-200">
 
-<main className="max-w-[1170px] mx-auto  bg-black">
+<main className="max-w-[1170px] mx-auto ">
 
         {children}
         </main>

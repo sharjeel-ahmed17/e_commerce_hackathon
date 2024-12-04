@@ -12,8 +12,8 @@ const config: Config = {
       colors: {
         red: "#DB4444",
         green: "#00FF66",
-        white: "#000",
-        black: "#1a1a1a",
+        white: "#fff",
+        black: "#000",
 
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
