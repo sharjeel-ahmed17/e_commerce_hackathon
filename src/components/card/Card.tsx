@@ -1,4 +1,4 @@
-import { Eye, Heart, Star, Trash2 } from "lucide-react";
+import { Eye, Heart, Star } from "lucide-react";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
