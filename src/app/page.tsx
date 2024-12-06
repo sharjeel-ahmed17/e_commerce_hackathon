@@ -1,12 +1,10 @@
-import Card from "@/components/card/Card"
-
-
-
+import Card from "@/components/card/Card";
 
 const Home = () => {
   return (
     <div>
 
+      
       {/* <h2 className="mt-primary">sharjeel </h2>
       <h1 className="">shad cn button component</h1>
    <p className="text-green">sharjeel ali </p>
@@ -19,10 +17,9 @@ const Home = () => {
 
       <Card/>
 
-
-      
+    
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
