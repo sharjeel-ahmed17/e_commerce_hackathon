@@ -2,26 +2,26 @@ import { Eye, Heart, Star } from "lucide-react";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
-const Card = () => {
-  return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="flex flex-wrap justify-center -m-4">
-          <ChildCard />
-          <ChildCard />
-          <ChildCard />
-          <ChildCard />
-        </div>
-      </div>
-    </section>
-  );
-};
+// const Card = () => {
+//   return (
+//     <section className="text-gray-600 body-font">
+//       <div className="container px-5 py-10 mx-auto">
+//         <div className="flex flex-wrap justify-center -m-4">
+//           <ChildCard />
+//           <ChildCard />
+//           <ChildCard />
+//           <ChildCard />
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
 
-export default Card;
+// export default Card;
 
-function ChildCard() {
+export default function Card() {
   return (
-    <div className="p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+   
       <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
         <div className="relative">
           <Image
@@ -62,6 +62,6 @@ function ChildCard() {
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 }

@@ -3,9 +3,12 @@ import React from 'react'
 
 const NotFound = () => {
   return (
-    <div>NotFound 404 
-        <Link href='/'>go to home page</Link>
-    </div>
+    <div className='flex justify-center flex-col h-[50vh] items-center gap-5'>
+    <h1>404 Not Found</h1>
+    <p> Your visited page not found. You may go home page.</p>
+    <Link href='/'>Back to home page</Link>
+  </div>
+  
   )
 }
 
