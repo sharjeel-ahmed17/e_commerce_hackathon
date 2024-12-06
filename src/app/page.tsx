@@ -45,6 +45,8 @@ const Home = () => {
       </div>
 
       {/* flah sale */}
+
+      
       {/* hero and category end */}
       {/* <h2 className="mt-primary">sharjeel </h2>
       <h1 className="">shad cn button component</h1>
